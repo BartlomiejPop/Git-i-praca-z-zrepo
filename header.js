@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Header = () => {
+export const Header = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>My App</Text>
